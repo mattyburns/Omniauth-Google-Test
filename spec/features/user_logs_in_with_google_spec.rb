@@ -7,9 +7,9 @@ def stub_omniauth
     provider: "google",
     uid: "12345678910",
     info: {
-      email: "jesse@mountainmantechnologies.com",
-      first_name: "Jesse",
-      last_name: "Spevack"
+      email: "mattyb9195@gmail.com",
+      first_name: "Matty",
+      last_name: "Burns"
     },
     credentials: {
       token: "abcdefg12345",
