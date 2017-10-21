@@ -1,6 +1,11 @@
 <% if current_user %>
-  <h3>Welcome, <%="#{current_user.first_name} #{current_user.last_name}"%> </h3>
-  <%= link_to "Logout", logout_path %>
+  <nav><%= link_to "Logout", logout_path %></nav>
+  <div class="greeting">
+    <h3>Welcome, <%="#{current_user.first_name} #{current_user.last_name}"%> </h3>
+  </div>
+  <div class="image">
+    <%= image_tag("unicorn.png", alt: "An adorable unicorn") %>
+  </div>
 <% else %>
   <%= link_to "Sign in with Google", "/auth/google" %>
 <% end %>
