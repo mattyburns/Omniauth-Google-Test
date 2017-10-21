@@ -23,10 +23,10 @@ RSpec.describe User, type: :model do
     expect(new_user.provider).to eq("google")
     expect(new_user.uid).to eq("12345678910")
     expect(new_user.email).to eq("mattyb9195@gmail.com")
-    expect(new_user.first_name).to eq("")
-    expect(new_user.last_name).to eq("")
-    expect(new_user.token).to eq("")
-    expect(new_user.refresh_token).to eq("")
+    expect(new_user.first_name).to eq("Matty")
+    expect(new_user.last_name).to eq("Burns")
+    expect(new_user.token).to eq("abcdefg12345")
+    expect(new_user.refresh_token).to eq("12345abcdefg")
     expect(new_user.oauth_expires_at).to eq(auth[:credentials][:expires_at])
 
   end
