@@ -3,15 +3,15 @@ require 'rails_helper'
 RSpec.describe User, type: :model do
   it "creates or updates itself from an oauth hash" do
     auth = {
-      provider: "google"
-      uid: "12345678910"
+      provider: "google",
+      uid: "12345678910",
       info: {
-        email: "mattyb9195@gmail.com"
-        first_name:"Matty"
+        email: "mattyb9195@gmail.com",
+        first_name:"Matty",
         last_name: "Burns"
       },
       credentials: {
-        token: "abcdefg12345"
+        token: "abcdefg12345",
         refresh_token: "12345abcdefg",
         expires_at: DateTime.now
       }
