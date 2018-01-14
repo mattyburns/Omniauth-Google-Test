@@ -1,24 +1,7 @@
-# README
+# Omniauth-Google-Test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I built this repo during a Launch Academy Ship-It-Saturday. My goal was to learn how to integrate Omniauth for logging into an application through Google. I also built tests for this authorization. 
 
-Things you may want to cover:
+Built with a Rails/React and the Google-Oauth-2 gem. 
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
